@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking KYC - Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span>Banking KYC</span>
+        <nav>
+            <a href="profile.html">Profile</a>
+            <a href="status.html">Status</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>KYC Form</h2>
+        <input type="text" id="fullName" placeholder="Full Name">
+        <input type="date" id="dob">
+        <textarea id="address" placeholder="Address"></textarea>
+        <label>Upload ID Proof:</label>
+        <input type="file" id="idProof">
+        <button onclick="submitKYC()">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
